@@ -1,0 +1,59 @@
+# .gitignore
+# This file specifies files and directories that Git should ignore in this repository.
+# It's used to prevent unnecessary, incompatible, or sensitive files from being tracked.
+
+# ====================================
+# Removed for causing issues / crashes
+# ====================================
+ZyQuantumV1_Debug.log
+TempConfigs/
+*.tmp
+
+# ====================================
+# Local environment / IDE specific
+# ====================================
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.swp
+
+# ====================================
+# Build / Output / Compiled Files
+# ====================================
+bin/
+obj/
+*.dll
+*.exe
+*.luac
+
+# ====================================
+# Backup or sensitive files
+# ====================================
+*.bak
+*.old
+*.backup
+*.db
+*.dat
+
+# ====================================
+# Roblox Studio Specific
+# ====================================
+*.rbxl*
+output/
+localplayercache/
+
+# ====================================
+# Optional / Experimental modules
+# ====================================
+# Modules that are partially tested or may crash the game
+libExperimentalModule1.lua
+libExperimentalModule2.lua
+
+# ====================================
+# Logs / Temporary Files
+# ====================================
+*.log
+*.temp
+*.cache
